@@ -1,0 +1,10 @@
+.app {
+  font-family: "Poppins";
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-image: url("./assets/images/moviepitchbg-dark.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}

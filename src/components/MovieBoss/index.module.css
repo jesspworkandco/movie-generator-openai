@@ -1,0 +1,167 @@
+.container,
+.outputContainer {
+  border-radius: 30px;
+  max-width: 600px;
+  padding: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+  justify-content: space-between;
+}
+.setupContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imageBoss {
+  width: 25%;
+  filter: drop-shadow(3px 2px 3px darkgray);
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.speechBubbleAi {
+  max-width: 55%;
+  min-height: 124px;
+  border-radius: 30px;
+  position: relative;
+  margin: 0;
+  border: 5px solid darkgray;
+  background-color: white;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+}
+
+.speechBubbleAi:before {
+  content: "";
+  position: absolute;
+  border-left: 9px solid transparent;
+  border-right: 9px solid darkgray;
+  border-top: 9px solid darkgray;
+  border-bottom: 9px solid transparent;
+  left: -21px;
+  top: 64px;
+}
+
+.speechBubbleAi:after {
+  content: "";
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-right: 7px solid white;
+  border-top: 7px solid white;
+  border-bottom: 7px solid transparent;
+  left: -11px;
+  top: 68px;
+}
+
+.speechBubbleAi > p {
+  padding: 0 1.3em;
+  color: black;
+  font-size: 85%;
+}
+
+textarea {
+  background-color: rgb(215, 215, 218);
+  padding: 0.8em;
+  border: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 30px;
+  width: 100%;
+  resize: none;
+  min-height: 40px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea::placeholder {
+  color: darkgray;
+  font-size: 88%;
+  opacity: 0.8;
+}
+
+/* larger mobiles+ */
+
+@media (min-width: 380px) {
+  .inputContainer {
+    padding-top: 0;
+  }
+
+  .speechBubbleAi:before {
+    top: 92px;
+  }
+
+  .speechBubbleAi:after {
+    top: 96px;
+  }
+
+  .speechBubbleAi > p {
+    font-size: 100%;
+  }
+
+  textarea::placeholder {
+    font-size: 100%;
+    opacity: 0.8;
+  }
+}
+
+/* ================
+Buttons & SVG 
+================= */
+
+button {
+  border: none;
+  background: hotpink;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.sendBtn {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  min-width: 50px;
+}
+
+.sendBtn > img {
+  width: 1.6em;
+  vertical-align: middle;
+}
+
+.viewPitchBtn {
+  color: white;
+  border-radius: 30px;
+  padding: 1em;
+  margin: 0.4em auto;
+  display: block;
+  font-size: 1.2em;
+}
+/* img.loading {
+  max-width: 40px;
+  filter: none;
+} */
+/* ================
+Output 
+================= */
+
+.outputImgContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.generatedImage {
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 30px;
+}
+.outputContainer {
+  padding: 15px 15px 5px 15px;
+}
