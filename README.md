@@ -1,3 +1,6 @@
+# Project Screenshot
+![React movie generator app using openAI api](https://github.com/jesspworkandco/movie-generator-openai/assets/87079033/1a0ebc44-3a46-47d1-97e9-0ee68aed33b2)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
