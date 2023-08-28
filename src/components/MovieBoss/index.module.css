@@ -22,6 +22,7 @@
 .inputContainer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin: 10px;
 }
 
@@ -145,10 +146,11 @@ button:hover {
   display: block;
   font-size: 1.2em;
 }
-/* img.loading {
+
+.loading {
   max-width: 40px;
   filter: none;
-} */
+}
 /* ================
 Output 
 ================= */
