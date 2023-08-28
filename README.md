@@ -1,4 +1,6 @@
 # Project Screenshot
+This project was based off of [This tutorial](https://www.freecodecamp.org/news/build-ai-apps-with-chatgpt-dall-e-and-gpt-4/)
+
 ![React movie generator app using openAI api](https://github.com/jesspworkandco/movie-generator-openai/assets/87079033/1a0ebc44-3a46-47d1-97e9-0ee68aed33b2)
 
 # Getting Started with Create React App
